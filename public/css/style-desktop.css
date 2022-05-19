@@ -1,0 +1,115 @@
+@media (min-width: 769px) {
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+      width: 200px;
+    }
+
+    .nav-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .nav-section ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-section li {
+        margin-right: 15px;
+    }
+    
+    .product {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .product {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .w-tablet-30 {
+      width: 45%;
+    }
+
+    .product-title {
+      /*visibility: collapse;*/
+      display:contents;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+      width: 250px;
+    }
+
+    .burger-menu {
+      display: none;
+    }
+
+    .header-desktop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+    }
+
+    .product {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .product {
+      box-shadow: none;
+    }
+
+    .product:hover {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .product-title {
+      visibility: collapse;
+      /*display:none;*/
+    }
+
+    .truck-icon:hover {
+      transform: rotateZ(-90deg);
+    }
+
+    button:hover {
+      background-color: #0022aa;
+    }
+
+    .w-desktop-20 {
+      width: 23%;
+    }
+    .w-desktop-50 {
+      width: 50%;
+    }
+    .w-desktop-70 {
+      width: 70%;
+    }
+    .w-desktop-33 {
+      width: 33%;
+    }
+    .footer-desktop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .footer-desktop section i:hover {
+      color: #03264C;
+    }
+}

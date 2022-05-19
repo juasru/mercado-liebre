@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresá</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/style-tablet.css" rel="stylesheet">
+    <link href="/css/style-desktop.css" rel="stylesheet">
+    <link href="/css/organize.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-yellow font-12">
+        <div class="main-header-top-bar header-desktop">
+            <h1 class="fx-grow-50 w-desktop-33">
+                <img src="/images/logo-mercado-liebre.svg" alt="Logo MELI" width="100%" class="logo">
+            </h1>
+            <form action="" method="" class="fx-grow-50 w-desktop-33">
+                <div class="form-field w-100 mb-0">
+                    <div class="input-with-button">
+                        <input 
+                            class="form-input"
+                            type="text" 
+                            name="search" 
+                            placeholder="Buscar productos, marcas"
+                        />
+                        <button class="input-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <p class="centrado w-100 p-2 w-desktop-33">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </p>
+        </div>
+        <nav>
+            <div class="nav-section p-2">
+                <ul class="links">
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul class="links">
+                    <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></li></a>
+                </ul>
+            </div>
+            <div class="burger-menu centrado">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-grey">
+        <form action="/" method="get">
+            <div class="form-field">
+                <label for="nombreUsuario" class="accessibility-label">Nombre de Usuari@</label>
+                <input 
+                    type="text"
+                    name="nombreUsuario"
+                    id="nombreUsuario"
+                    placeholder="Nombre de usuari@"
+                    class="form-input"
+                />
+            </div>
+            <div class="form-field">
+                <label for="password" class="accessibility-label">Contraseña</label>
+                <input 
+                    type="password" 
+                    name="password" 
+                    id="password" 
+                    class="form-input"
+                    placeholder="Contraseña"
+                />
+            </div>
+            <div class="form-field">
+                <button type="submit" class="w-100 p-8 bg-lightblue font-white">Ingresar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="centrado font-darkgrey bg-white border-footer">
+        <div class="footer-desktop footer-mobile">
+            <section class="margin-footer w-desktop-33">
+                <i class="fas fa-credit-card font-lightblue icon-footer"></i> 
+                <p class="font-16 negrita">Pagá con tarjeta o en efectivo</p>
+                <p class="font-12">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
+            </section>
+            <section class="margin-footer w-desktop-33">
+                <i class="fas fa-gift font-lightblue icon-footer"></i>
+                <p class="font-16 negrita">Envío gratis desde $ 2.500</p>
+                <p class="font-12">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </section>
+            <section class="margin-footer w-desktop-33">
+                <i class="fas fa-user-shield font-lightblue icon-footer"></i>
+                <p class="font-16 negrita">Seguridad, de principio a fin</p>
+                <p class="font-12">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.</p>
+            </section>
+        </div>
+        <section>
+            <p id="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,186 @@
+/* ---------- SPACING AND FORMATTING ---------- */
+
+.font-yellow {color: #EAC926; }
+.bg-yellow { background-color: #EAC926; }
+.font-blue {color: #03264C; }
+.bg-blue { background-color: #03264C; }
+.font-lightblue {color: #1259c3; }
+.bg-lightblue { background-color: #1259c3; }
+.font-darkgrey {color: #666; }
+.bg-darkgrey { background-color: #666; }
+.font-grey {color: #ebebeb; }
+.bg-grey { background-color: #ebebeb; }
+.font-white { color: white }
+.bg-white { background-color: white; }
+.font-green {color: #39b54a; }
+.bg-green { background-color: #39b54a; }
+.font-24 { font-size: 24px; }
+.font-18 { font-size: 18px; }
+.font-16 { font-size: 16px; }
+.font-14 { font-size: 14px; }
+.font-12 { font-size: 12px; }
+.centrado { text-align: center; }
+.negrita { font-weight: bold; }
+.w-100 { width: 100%;}
+.w-50 { width: 50%;}
+.margin-left { margin-left: 10%;}
+.mb-5 { margin-bottom: 5px; }
+.pl-8 { padding-left: 8px; }
+
+/* ---------- HEADER STYLES ---------- */
+
+header { padding: 3%; }
+
+li { list-style: none; }
+
+a { text-decoration: none; color: black; }
+
+.logo { width: 200px; }
+
+.burger-menu i {
+    background-color: #1259c3;
+    font-size: 24px;
+    color: white;
+    display: block;
+    max-width: 15%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+/* ---------- MAIN STYLES ---------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+main {
+    width: 90%;
+    margin: auto; /*para centrar la caja dentro de su elemento contenedor*/
+}
+
+
+
+.caja-detalleprod {
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    padding: 15px;
+}
+
+.truck-icon {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.p-2 {
+    padding: 2%;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+nav div ul li a {
+    margin-right: 15px;
+}
+
+.relative {
+    position: relative;
+    display: flex;
+}
+
+/* ---------- FORM STYLES ---------- */
+
+form {
+    padding: 20px 15px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.form-field {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.form-field > .form-input {
+    background-color: white;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.form-field.error > .form-input {
+    border: 1px solid red;
+}
+
+.form-field.error > .input-option {
+    border: 1px solid red;
+}
+
+.form-field > .input-label {
+    display: block;
+    margin-bottom: 4px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.form-field > .accessibility-label {
+    display: none;
+}
+
+.form-field > .input-with-button {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 4px;
+}
+
+.form-field > .input-with-button > input {
+    padding: 4px;
+    flex-grow: 1;
+    border: none;
+    width: 100%;
+}
+
+.form-field > .input-with-button > .input-button {
+    padding: 4px;
+    border: none;
+    margin-left: 2px;
+    background-color: white;
+}
+
+.form-field > .error-msg {
+    display: block;
+    padding-top: 4px;
+    padding-left: 8px;
+    color: red;
+    width: 100%;
+}
+
+.control-form {
+    margin: 10px;
+}
+
+/* ---------- FOOTER STYLES ---------- */
+
+.border-footer { border: #ebebeb solid 10px; }
+.icon-footer { font-size: 2em; margin-bottom: 10px;}
+.margin-footer { margin: 40px 10px; }
+#copyright { text-align: left; font-size: 12px; padding: 15px; }

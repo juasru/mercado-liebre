@@ -1,0 +1,53 @@
+.flex {
+    display: flex;
+}
+
+.main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.f-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.relative {
+    position: relative;
+}
+
+.fx-align-center {
+    align-items: center;
+}
+  
+.fx-grow-100 {
+    flex-grow: 1;
+}
+  
+.fx-grow-70 {
+    flex-grow: 0.7;
+}
+
+.fx-grow-50 {
+    flex-grow: 0.5;
+}
+
+.fx-grow-30 {
+    flex-grow: 0.3;
+}
+  
+.fx-space-between {
+    justify-content: space-between;
+}
+
+/*.nav-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}*/
+
+.links {
+    display: flex;
+    flex-direction: row; 
+}
