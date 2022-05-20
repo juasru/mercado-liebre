@@ -7,7 +7,8 @@ const public = path.join(__dirname,"./public")
 app.use(express.static(public));
 
 //para llamar al servidor
-app.listen(3000, ()=> console.log("Servidor corriendo"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, ()=> console.log("Servidor corriendo en el puerto " + PORT));
 
 //para mostrar en el servidor el archivo de home.html
 app.get("/", (req,res)=>{
